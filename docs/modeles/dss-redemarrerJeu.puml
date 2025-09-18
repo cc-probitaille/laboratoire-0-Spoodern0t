@@ -2,7 +2,6 @@
 @startuml
 skinparam style strictuml
 skinparam packageStyle rect
-skinparam backgroundcolor transparent
 skinparam defaultfontname Verdana
 
 title DSS pour le scénario <i>Redémarrer</i>
