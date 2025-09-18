@@ -32,4 +32,9 @@ describe('GET /api/v1/jeu/redemarrerJeu', () => {
     expect(joueursArray.length).toBe(0);
   });
 
+  it(`devrait répondre avec une mauvaise demande quand le joueur supprimé ${testNom1} tente de jouer`, async () => {
+      const response = await request.get("/api/v1/jeu/jouer/" + testNom1);
+      expect(response.status).toBe(404);
+    });
+
 });
