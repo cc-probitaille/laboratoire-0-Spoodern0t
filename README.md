@@ -412,15 +412,15 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
 ### 4. Écrire la fonctionnalité
 
-- [ ] ajouter l'opération système `redemarrerJeu` dans le contrôleur GRASP `src/core/jeuDeDes.ts` (TypeScript)
+- [x] ajouter l'opération système `redemarrerJeu` dans le contrôleur GRASP `src/core/jeuDeDes.ts` (TypeScript)
 
   Cette méthode correspond à l'opération système (unique) définie dans le diagramme de séquence système (DSS).
 
-- [ ] coder l'opération `redemarrerJeu` selon la RDCU (TypeScript)
+- [x] coder l'opération `redemarrerJeu` selon la RDCU (TypeScript)
 
   Pour la logique du code, consulter le diagramme de séquence (RDCU) créé à l'étape précédente.
 
-- [ ] ajouter une nouvelle route, dans `src/routes/jeuRouter.ts` (Express)
+- [x] ajouter une nouvelle route, dans `src/routes/jeuRouter.ts` (Express)
 
   - ajouter la fonction `redemarrerJeu`, juste avant la fonction `init()`
 
@@ -434,17 +434,17 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
     Il s'agit d'une *définition de [route](http://expressjs.com/en/guide/routing.html)* dans *Express*. Lorsqu'il y aura une requête HTTP `GET` avec `api/v1/jeu/redemarrerJeu`, la fonction `redemarrerJeu` dans la même classe sera appelée (*callback*). Cette fonction est aussi appelée un *route handler* en anglais.
 
-- [ ] faire un build (Node.js)
+- [x] faire un build (Node.js)
 
   `npm run build` devrait passer sans erreurs. Si vous avez des erreurs, essayer de lire et de comprendre pourquoi. Si vous êtes bloqués pendant plus de 5 minutes, demandez de l'aide à un auxiliaire d'enseignement.
 
-- [ ] vérifier que les tests pour la nouvelle fonctionnalité redémarrerJeu passent: `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts`. (Node.js)
+- [x] vérifier que les tests pour la nouvelle fonctionnalité redémarrerJeu passent: `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts`. (Node.js)
 
-- [ ] vérifier que TOUS les tests des fonctionnalités de base passent (Node.js)
+- [x] vérifier que TOUS les tests des fonctionnalités de base passent (Node.js)
 
   `npx jest --colors --coverage --testPathIgnorePatterns=lab0.test.ts` devrait indiquer que tous les tests passent.
 
-- [ ] ajouter le bouton dans `views/index.pug` (PugJS.org)
+- [x] ajouter le bouton dans `views/index.pug` (PugJS.org)
 
   > Facultatif : pour une explication de PUG (anciennement Jade) avec Express, il y a [cette vidéo](https://www.youtube.com/watch?v=DSp9ExFw3Ig).
 
@@ -469,7 +469,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
       button#redemarrer Redémarrer
   ```
 
-- [ ] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
+- [x] ajouter le JavaScript pour le bouton afin d'invoquer le nouveau service
 
   Dans `public/lib/main.js` on trouve le code pour les boutons. Après la logique pour traiter le clic sur le bouton *Démarrer* (`demarrer.addEventListener("click", function(){...});`, ajouter une nouvelle logique pour le bouton *Redémarrer* qui fait un `GET` sur `/api/v1/jeu/redemarrerJeu`:
 
