@@ -176,7 +176,7 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ![Diagramme de classe du Modèle du domaine](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-Spoodern0t/refs/heads/master/docs/modeles/mdd.puml)
 
-### Diagramme de séquence système (DSS)
+### Diagrammes de séquence système (DSS)
 
 ![Diagramme de séquence système, Jouer aux dés](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-Spoodern0t/refs/heads/master/docs/modeles/dss-jouer.puml)
 
