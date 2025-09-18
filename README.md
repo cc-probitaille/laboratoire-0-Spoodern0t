@@ -385,7 +385,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
 ### 3. Écrire des tests pour la fonctionnalité
 
-- [ ] ajouter de nouveaux cas de test pour Redémarrer (Jest/SuperTest)
+- [x] ajouter de nouveaux cas de test pour Redémarrer (Jest/SuperTest)
 
   - ouvrir le fichier `test/routes/jeuRouter-redemarrerJeu-lab0.test.ts`
 
@@ -405,7 +405,7 @@ La documentation des fonctionnalités se trouve dans le fichier [docs/Squelette.
 
     Le test doit vérifier qu'il n'y a plus de joueurs.
 
-- [ ] vérifier que les tests ne passent pas (Jest/SuperTest)
+- [x] vérifier que les tests ne passent pas (Jest/SuperTest)
   `npx jest --colors jeuRouter-redemarrerJeu-lab0.test.ts` va indiquer `n failed`
 
   Cela est normal, car nous avons écrit plusieurs tests avant d'avoir écrit les fonctionnalités, selon la pratique de *Développement piloté par les tests*.
