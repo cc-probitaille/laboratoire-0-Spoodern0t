@@ -219,8 +219,6 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 
 ![Diagramme de séquence, terminerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-Spoodern0t/refs/heads/master/docs/modeles/rdcu-terminerJeu.puml)
 
-
-
 #### Opération: `redémarrerJeu()`
 
 **Postconditions**
@@ -228,5 +226,9 @@ Voici la même figure, mais sous forme de diagramme de séquence avec l'acteur. 
 - Toutes les instances de Joueur en cours ont été supprimées.
 
 ![Diagramme de séquence, redemarrerJeu](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-Spoodern0t/refs/heads/master/docs/modeles/rdcu-redemarrerJeu.puml)
+
+### Diagramme de classes logicielles
+
+![Diagramme de classes logicielles](http://www.plantuml.com/plantuml/proxy?cache=no&fmt=svg&src=https://raw.githubusercontent.com/cc-probitaille/laboratoire-0-Spoodern0t/refs/heads/master/docs/modeles/App.puml)
 
 [README.md](../README.md)
